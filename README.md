@@ -1,4 +1,7 @@
 This README is human-written.
+
+This repository contains information on solving the halting problem on specific Turing machines. All the documents and Metamath files were produced by an instance of ChatGPT 6.1 Sol.
+
 The Metamath file contains proofs that the formal theory IΔ₀ can prove that these Turing machines run forever:
 
 1. `1RB0RB_0LA---` "cycler"
@@ -16,7 +19,7 @@ The formal theory, Turing machine encoding within the formalization, and the non
 The rest of the results in the papers are not verified within a proof assistant.
 
 "bb2_idelta0_cps_free.pdf" gives an argument that shows that cyclers and translated cyclers up to period 8 can proven nonhalting in IΔ₀. This could be extended to show that IΔ₀ can prove that BB(2)=6, and almost certainly to prove translated cyclers of any length.
-"pa_minus_translated_cycler_and_encodings.pdf" shows that the halting status of machine #2 (the translated cycler) is independent of the formal theory PA^-, which has no induction. "sqrt2_11_state_machine_beginner_paper-1.pdf" gives an 11-state machine which halts if and only if there exists two positive integers x and y where x^2=2y^2. This machine is meant to be independent of the axiomatic foundation IOpen (Arithmetic with open induction), as it cannot prove that √2 is irrational. However, we claim no proof of this independence result.
+"pa_minus_translated_cycler_and_encodings.pdf" shows that the halting status of machine #2 (the translated cycler) is independent of the formal theory PA^-, which has no induction. "sqrt2_11_state_machine_beginner_paper-1.pdf" gives an 11-state machine which halts if and only if there exists two positive integers x and y where x^2=2y^2. This machine is meant to be independent of the axiomatic foundation IOpen (Arithmetic with open induction), as it cannot prove that √2 is irrational. However, we claim no proof of this independence result. "three_number_theory_proofs_idelta0.pdf" does not contain new results, but gives examples of relatively simple formal proofs to help readers understand the formal system.
 
 Some goals and future directions of this research are to create an analogy for Reverse Mathematics to Pi_1 statements, and to potentially discover more concise or natural instances of logical independence.
 
