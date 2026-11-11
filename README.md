@@ -17,4 +17,6 @@ The rest of the results in the papers are not verified within a proof assistant.
 
 "pa_minus_translated_cycler_and_encodings.pdf" shows that the halting status of machine #2 (the translated cycler) is independent of the formal theory PA^-, which has no induction. "sqrt2_11_state_machine_beginner_paper-1.pdf" gives an 11-state machine which halts if and only if there exists two positive integers x and y where x^2=2y^2. This machine is meant to be independent of the axiomatic foundation IOpen (Arithmetic with open induction), as it cannot prove that √2 is irrational. However, we claim no proof of this independence result.
 
+Some goals and future directions of this research are to create an analogy for Reverse Mathematics to Pi_1 statements, and to potentially discover more concise or natural instances of logical independence.
+
 A human made document will be released at some point within the future.
